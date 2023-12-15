@@ -51,8 +51,7 @@ function App() {
       <h1>Instructions</h1>
       <p>Answer the questions in the ./components/questions.txt file, then move onto the ./components/Products.jsx file. Good luck.</p>
 
-      {/* Comonents to be rendered below */}
-      <Products />
+      <Products products={products}/>
     </>
   );
 }
